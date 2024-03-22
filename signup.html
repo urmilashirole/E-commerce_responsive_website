@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="top-navbar">
+    <div class="top-icons">
+      <i class="fa-brands fa-twitter  text-primary"></i>
+      <i class="fa-brands fa-facebook  text-primary"></i>
+      <i class="fa-brands fa-instagram  text-primary"></i>
+    </div>
+    <div class="other-links">
+      <button id="btn-login"><a href="login.html">Login</a></button>
+      <button id="btn-signup"><a href="signup.html">Sign up</a></button>
+
+      <!-- <i class="fa-solid fa-user"></i> -->
+      <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#" id="logo"><img src="bootstrap_project_imgs/logo1.png" alt="" width="40px" style="margin-bottom:10px; margin-right:10px;"><strong>Fashion</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="project1.html"><strong>Home</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="clothe.html"><strong>Clothe</strong></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="category.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+             <strong>Category</strong>
+            </a>
+            <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="t-shirt.html">T-Shirt</a></li>
+              <li><a class="dropdown-item" href="hoodies.html">Hoodies</a></li>
+              <li><a class="dropdown-item" href="pants.html">Pants</a></li>
+              <li><a class="dropdown-item" href="sportshoes.html">Sports Shoes</a></li>
+              <li><a class="dropdown-item" href="smartwatch.html">Smart Watch</a></li>
+              <li><a class="dropdown-item" href="glasses.html">Glasses</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="about.html"><strong>About Us</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="contact.html"><strong>Contact Us</strong></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- signup -->
+
+  <div class="container login">
+    <div class="row">
+        <div class="col-md-4" id="side1">
+            <h3>Welcome Back!!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur.</p>
+            <div id="btn"><a href="login.html">Log In</a></div>
+        </div>
+        <div class="col-md-8" id="side2">
+            <h3>Create Account</h3>
+            <div class="inp">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Password" required>
+            </div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div id="login"><button>SIGN UP</button></div>
+        </div>
+    </div>
+  </div>
+    
+
+      <!-- Footer -->
+
+      <footer id="footer" style="margin-top:50px;">
+        <div class="footer-top">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 footer-content">
+                <h3>Fashion</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, quibusdam!</p>
+                <p>
+                  India <br>
+                  Sindh <br>
+                  karachi <br><br>
+                </p>
+                <strong><i class="fas fa-phone"></i> Phone : <strong>00000000000000000</strong></strong><br>
+                <strong><i class="fa-solid fa-envelope"></i> Email : <strong>example@gmail.com</strong></strong>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Usefull Links</h4>
+                <ul>
+                  <li><a href="project1.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <ul>
+                  <li><a href="#">Smart Phone</a></li>
+                  <li><a href="smartwatch.html">Smart Watch</a></li>
+                  <li><a href="#">Airpods</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Social Network</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, a.</p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#" class="google-plus"><i class="fa-brands fa-google-plus"></i></a>
+                  <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#" class="linkedin-in"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+          <div class="copyright text-center">
+            &copy;Copyright <strong>Fashion</strong>.All Rights Reserved
+          </div>
+          </div>
+          </div>
+        </div>
+      </footer>
+
+      <a href="#" class="arrow"><i><img src="bootstrap_project_imgs/arrow.png" alt="" width="50px"></i></a>
+
+</body>
+
+</html>
